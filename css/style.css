@@ -153,7 +153,7 @@ header .container .col-md-7 p {
 .cover {
     width: 100%;
     height: 55vmin;
-    background: url("../assets/pexels-photo-452738.jpeg");
+    background: url("../assets/cover.png");
     background-position: -24rem -19rem;
     background-size: 150%;
     position: relative;
@@ -196,7 +196,7 @@ header .container .col-md-7 p {
     padding-top: 3.5vmin;
     margin: 1rem;
     border-radius: 0.5em;
-    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+    box-shadow: 1px 2px 10px 0px #93155d;
 }
 
 .numbers {
@@ -205,7 +205,7 @@ header .container .col-md-7 p {
 
 .numbers .rect h1 {
     font-size: 5rem;
-    color: tomato;
+    color: #93155d;
 }
 
 .numbers .rect>p {
@@ -215,7 +215,7 @@ header .container .col-md-7 p {
 .purchase>h1 {
     padding-top: 15vmin;
     padding-bottom: 0.1em;
-    font-family: var(--Lobster);
+    font-family: var(--Rubik);
 }
 
 .purchase>p {
@@ -333,7 +333,7 @@ footer {
 }
 
 footer p>span {
-    color: #ff512f;
+    color: #93155d;
 }
 
 footer input {
@@ -345,12 +345,12 @@ footer input::placeholder {
 }
 
 footer .input-group .input-group-text {
-    background: var(--bggradient);
+    background: #8e2360;
     border: none;
 }
 
 footer .column i {
-    color: #dd2476;
+    color: #8e2360;
 }
 
 /* It is Adjacent sibling combinator */
